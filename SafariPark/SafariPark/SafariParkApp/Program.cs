@@ -100,14 +100,26 @@ namespace SafariParkApp
             LazerGun lazer = new LazerGun("Lazer1");
             WaterPistol water = new WaterPistol("Water 1");
 
+            Hunter tahsin = new Hunter("Shoot");
+            Hunter kevin = new Hunter("shoot");
+
+            Camera Canon = new Camera("Canon");
+
             list.Add(lazer);
             list.Add(water);
+            list.Add(tahsin);
+            list.Add(kevin);
+            list.Add(Canon);
+
+
 
             foreach(var weapon in list)
             {
                 Console.WriteLine(weapon.Shoot());
 
             }
+
+
 
 
 

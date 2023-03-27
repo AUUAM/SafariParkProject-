@@ -8,7 +8,7 @@ namespace SafariParkApp
 {
 
 
-    public class Hunter : Person
+    public class Hunter : Person, IShootable // 
     {
         private string _camera;
         // Base consutrctor called immediately after Hunter constructor called THEN hunder sonctructor method body is executed
@@ -34,6 +34,8 @@ namespace SafariParkApp
         {
             return $"{base.ToString()} Camera: {_camera}. My first name is {_firstName}";
         }
+
+
     }
 
     //public class MonsterHunter : Hunter
