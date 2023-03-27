@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SafariParkApp
 {
-    public class LazerGun : Weapon
+    public class LazerGun : Weapon 
     {
         public LazerGun(string brand) : base(brand) { }
 
