@@ -15,7 +15,7 @@ namespace SafariParkApp
 
         public string Shoot()
         {
-            return "";
+            return weapons.Shoot();
         }
 
         public IStealthable Hitman { get; set; }
@@ -30,11 +30,11 @@ namespace SafariParkApp
         }
         public string LongRangeKill() //only works with sniper weapon
         {
-            return "You use your sniper to take out the target enemy.";
+            return $"You use your sniper to take out the target enemy.";
         }
         public string ShortRangeKill()
         {
-            return "You have killed the target.";
+            return $"You have killed the target.";
         }
         //you can override dervied methods which have the virtual keyword in their singature OR override
         public sealed override string ToString()

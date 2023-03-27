@@ -8,7 +8,7 @@ namespace SafariParkApp
 {
 
 
-    public class Hunter : Person, IShootable // 
+    public class Hunter : Person, IShootable, IStealthable // 
     {
         //private string _camera;
         // Base consutrctor called immediately after Hunter constructor called THEN hunder sonctructor method body is executed
@@ -29,6 +29,19 @@ namespace SafariParkApp
         public string Shoot()
         {
             return $"{GetFullName()} : {Shooter.Shoot()}";
+        }
+
+        public string Ambush()
+        {
+            return $"You jump out of a bush and kill your target.";
+        }
+        public string LongRangeKill() //only works with sniper weapon
+        {
+            return $"You use your sniper to take out the target enemy.";
+        }
+        public string ShortRangeKill()
+        {
+            return $"You have killed the target.";
         }
 
         //you can override dervied methods which have the virtual keyword in their singature OR override

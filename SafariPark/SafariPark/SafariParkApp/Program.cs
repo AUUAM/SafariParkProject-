@@ -79,15 +79,61 @@ namespace SafariParkApp
             if (selectCharacter == "1") //select assassin
             {
                 Console.WriteLine($"Hello Agent {name}, Your next target has been found.. ");
-                Console.WriteLine($"Choose an attack style: \n1. Ambush\n2. Long Range\n3.Short Range");
+                Console.WriteLine($"Choose an attack style: \n1. Ambush\n2. Long Range\n3. Short Range");
                 string attackStyle = Console.ReadLine();
                 
                 if(selectWeapon == "1") { Console.WriteLine("Your Weapon was ineffective, You've died because of your poor choice."); }
                 
                 else if( selectWeapon == "2" && attackStyle == "1") 
                 {
-                    Assasin assassin = new Assasin(name, new WaterPistol("Water Pistol V1.0"));
-                    Console.WriteLine(assassin.Ambush());
+                    Assasin assassin = new Assasin(name, new LazerGun("c"));
+                    Console.WriteLine(assassin.Ambush(), assassin.Shoot());
+                }
+                else if (selectWeapon == "3" && attackStyle == "1")
+                {
+                    Assasin assassin = new Assasin(name, new Sniper("Barrett M82"));
+                    Console.WriteLine(assassin.Ambush(), assassin.Shoot());
+                }
+                else if (selectWeapon == "2" && attackStyle == "2")
+                {
+                    Assasin assassin = new Assasin(name, new LazerGun("Lazer Gun V1.0"));
+                    Console.WriteLine(assassin.LongRangeKill(), assassin.Shoot());
+                }
+                else if (selectWeapon == "3" && attackStyle == "2")
+                {
+                    Assasin assassin = new Assasin(name, new Sniper("Barrett M82"));
+                    Console.WriteLine(assassin.LongRangeKill(), assassin.Shoot());
+                }
+
+            }
+
+            if (selectCharacter == "2") //select hunter
+            {
+                Console.WriteLine($"Hello Hunter {name}, You've found an unsuspecting deer...");
+                Console.WriteLine($"Choose an attack style: \n1. Ambush\n2. Long Range\n3. Short Range");
+                string attackStyle = Console.ReadLine();
+
+                if (selectWeapon == "1") { Console.WriteLine("Your Weapon was ineffective, You've died because of your poor choice."); }
+
+                else if (selectWeapon == "2" && attackStyle == "1")
+                {
+                    Assasin assassin = new Assasin(name, new LazerGun("Lazer Gun V1.0"));
+                    Console.WriteLine("You attempt to ambush the deer... \nThe deer hears you from a far and runs away. Game Over.");
+                }
+                else if (selectWeapon == "3" && attackStyle == "1")
+                {
+                    Assasin assassin = new Assasin(name, new Sniper("Barrett M82"));
+                    Console.WriteLine(assassin.Ambush(), assassin.Shoot());
+                }
+                else if (selectWeapon == "2" && attackStyle == "2")
+                {
+                    Assasin assassin = new Assasin(name, new LazerGun("Lazer Gun V1.0"));
+                    Console.WriteLine(assassin.LongRangeKill(), assassin.Shoot());
+                }
+                else if (selectWeapon == "3" && attackStyle == "2")
+                {
+                    Assasin assassin = new Assasin(name, new Sniper("Barrett M82"));
+                    Console.WriteLine(assassin.LongRangeKill(), assassin.Shoot());
                 }
             }
 
