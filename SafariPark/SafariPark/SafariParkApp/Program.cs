@@ -76,24 +76,39 @@ namespace SafariParkApp
 
             // implemeting interface 
 
-            var list = new List<IMovable>(); // when youre defining the list  you have to define its type as IMovable
+            //var list = new List<IMovable>(); // when youre defining the list  you have to define its type as IMovable
 
 
 
-            Vehicle v1 = new Vehicle();
-            Person p1 = new Person();
+            //Vehicle v1 = new Vehicle();
+            //Person p1 = new Person();
 
 
 
-            list.Add(v1);
-            list.Add(p1);
+            //list.Add(v1);
+            //list.Add(p1);
 
 
 
-            foreach (var item in list)
+            //foreach (var item in list)
+            //{
+            //    Console.WriteLine(item.Move());
+            //}
+
+            var list = new List<IShootable>();
+
+            LazerGun lazer = new LazerGun("Lazer1");
+            WaterPistol water = new WaterPistol("Water 1");
+
+            list.Add(lazer);
+            list.Add(water);
+
+            foreach(var weapon in list)
             {
-                Console.WriteLine(item.Move());
+                Console.WriteLine(weapon.Shoot());
+
             }
+
 
 
 

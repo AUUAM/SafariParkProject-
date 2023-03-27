@@ -13,3 +13,18 @@ C:\Users\tahsi\Documents\SafariPark_AfterInhertianceLab (1)\SafariPark\SafariPar
 C:\Users\tahsi\Documents\SafariPark_AfterInhertianceLab (1)\SafariPark\SafariParkApp\obj\Debug\net7.0\SafariParkApp.pdb
 C:\Users\tahsi\Documents\SafariPark_AfterInhertianceLab (1)\SafariPark\SafariParkApp\obj\Debug\net7.0\SafariParkApp.genruntimeconfig.cache
 C:\Users\tahsi\Documents\SafariPark_AfterInhertianceLab (1)\SafariPark\SafariParkApp\obj\Debug\net7.0\ref\SafariParkApp.dll
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\obj\Debug\net7.0\SafariParkApp.csproj.AssemblyReference.cache
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\obj\Debug\net7.0\SafariParkApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\obj\Debug\net7.0\SafariParkApp.AssemblyInfoInputs.cache
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\obj\Debug\net7.0\SafariParkApp.AssemblyInfo.cs
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\obj\Debug\net7.0\SafariParkApp.csproj.CoreCompileInputs.cache
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\obj\Debug\net7.0\SafariParkApp.dll
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\obj\Debug\net7.0\refint\SafariParkApp.dll
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\obj\Debug\net7.0\SafariParkApp.pdb
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\bin\Debug\net7.0\SafariParkApp.exe
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\bin\Debug\net7.0\SafariParkApp.deps.json
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\bin\Debug\net7.0\SafariParkApp.runtimeconfig.json
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\bin\Debug\net7.0\SafariParkApp.dll
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\bin\Debug\net7.0\SafariParkApp.pdb
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\obj\Debug\net7.0\SafariParkApp.genruntimeconfig.cache
+C:\Users\tahsi\Desktop\SafariParkProject-\SafariPark\SafariPark\SafariParkApp\obj\Debug\net7.0\ref\SafariParkApp.dll

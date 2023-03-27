@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace SafariParkApp
 {
-    public abstract class Weapon
+    public abstract class Weapon : IShootable
     {
         private string _brand;
 
-        public abstract string Shoot();
+        public virtual string Shoot() { return "String"; }
 
-        public abstract string ToString();
+        public virtual string ToString() { return "string2"; }
 
         public  Weapon (string brand)
         {
