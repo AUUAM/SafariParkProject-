@@ -10,29 +10,31 @@ namespace SafariParkApp
 
     public class Hunter : Person, IShootable // 
     {
-        private string _camera;
+        //private string _camera;
         // Base consutrctor called immediately after Hunter constructor called THEN hunder sonctructor method body is executed
-        public Hunter(string fName, string lName, string camera = "") : base(fName, lName)
+        public Hunter(string fName, string lName, IShootable shooter) : base(fName, lName)
         {
-            _camera = camera;
+            Shooter = shooter;
         }
+
+        public IShootable Shooter { get; set; }
 
         public Hunter(string fName, string camera = "") : base(fName)
         {
-            _camera = camera;
+            //_camera = camera;
         }
 
         public Hunter() { }
 
         public string Shoot()
         {
-            return $"{GetFullName()} has taken a photo with their {_camera}";
+            return $"{GetFullName()} : {Shooter.Shoot()}";
         }
 
         //you can override dervied methods which have the virtual keyword in their singature OR override
         public sealed override string ToString()
         {
-            return $"{base.ToString()} Camera: {_camera}. My first name is {_firstName}";
+            return $"{base.ToString()} Shooter: {Shooter}";
         }
 
 

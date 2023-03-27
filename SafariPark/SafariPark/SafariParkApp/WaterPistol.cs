@@ -10,11 +10,7 @@ namespace SafariParkApp
     {
         public WaterPistol(string brand) : base(brand) { }
 
-        public override string Shoot() { return $"Zing!! {base.Shoot()}"; }
-        public override string ToString()
-        {
-            throw new NotImplementedException();
-        }
+        public override string Shoot() { return $"Splash!! Shooting a {base.ToString()}"; }
 
     }
 }

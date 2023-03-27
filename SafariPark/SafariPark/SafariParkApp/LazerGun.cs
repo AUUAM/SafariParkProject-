@@ -10,11 +10,12 @@ namespace SafariParkApp
     {
         public LazerGun(string brand) : base(brand) { }
 
-        public override string Shoot() { return $"Zing!! {base.Shoot()}"; }
-        public override string ToString()
+        public override string Shoot() { return $"Zing!! Shooting a {base.ToString()}"; }
+
+/*        public override string ToString()
         {
-            throw new NotImplementedException();
-        }
+            return "Shooting a " + base.ToString();
+        }*/
 
     }
 }

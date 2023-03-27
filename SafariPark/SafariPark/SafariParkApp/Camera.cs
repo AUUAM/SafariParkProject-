@@ -10,12 +10,18 @@ namespace SafariParkApp
     {
         private string _brand;
 
-        public  string Shoot() { return $"Zing!! "; }
-        public  string ToString()
+        public Camera(string brand) 
         {
-            return $"{_brand}";
+            _brand = brand;
         }
 
-        public Camera(string brand) { }
+        public string Shoot() { return $"Photo taken with: {_brand}"; }
+
+        public  string ToString()
+        {
+            return $"{base.ToString()}";
+        }
+
+
     }
 }
