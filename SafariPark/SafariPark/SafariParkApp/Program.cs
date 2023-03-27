@@ -15,15 +15,14 @@ namespace SafariParkApp
             Hunter tahsin = new Hunter("Tahsin", "CH", new Camera("Nikon"));
             Hunter kevin = new Hunter("Kevin", "CO", new Camera("Canon"));
 
-            //Camera Canon = new Camera("Canon");
+
 
             list.Add(lazer);
             list.Add(water);
             list.Add(tahsin);
             list.Add(kevin);
-            //list.Add(Canon);
 
-            foreach(var weapon in list)
+            foreach (var weapon in list)
             {
                 Console.WriteLine(weapon.Shoot());
 
@@ -31,6 +30,43 @@ namespace SafariParkApp
 
             kevin.Shooter = lazer;
             Console.WriteLine(kevin.Shoot());
+
+
+
+            // Extra stuff
+
+            /*            Console.WriteLine("Enter your name: ");
+                        string name = Console.ReadLine(); //entering name
+
+                        Console.WriteLine("Choose your weapon: ");
+                        Console.Write("1. Water Pistol \n2. Lazer Gun");
+                        Console.WriteLine();
+
+                        string option = Console.ReadLine();
+                        //int opt = Convert.ToInt32(option); //choosing weapon
+
+                        if (option == "1")
+                        {
+                            Hunter inputName = new Hunter(name,"", new Camera("Nikon"));
+                            inputName.Shooter = water;
+                            list.Add(inputName);
+                            foreach (var weapon in list)
+                            {
+                                Console.WriteLine(weapon.Shoot());
+
+                            }
+                        }
+                        else if (option == "2")
+                        {
+                            Hunter inputName = new Hunter(name,"", new Camera("Nikon"));
+                            inputName.Shooter = lazer;
+                            list.Add(inputName);
+                            foreach (var weapon in list)
+                            {
+                                Console.WriteLine(weapon.Shoot());
+
+                            }
+                        }*/
 
         }
     }

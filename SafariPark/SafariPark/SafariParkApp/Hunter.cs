@@ -21,7 +21,7 @@ namespace SafariParkApp
 
         public Hunter(string fName, string camera = "") : base(fName)
         {
-            //_camera = camera;
+
         }
 
         public Hunter() { }
@@ -36,7 +36,6 @@ namespace SafariParkApp
         {
             return $"{base.ToString()} Shooter: {Shooter}";
         }
-
 
     }
 
