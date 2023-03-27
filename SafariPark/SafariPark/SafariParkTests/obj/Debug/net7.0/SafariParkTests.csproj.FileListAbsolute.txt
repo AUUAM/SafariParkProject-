@@ -1,0 +1,6 @@
+C:\Users\tahsi\Documents\SafariPark_AfterInhertianceLab (1)\SafariPark\SafariParkTests\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\Users\tahsi\Documents\SafariPark_AfterInhertianceLab (1)\SafariPark\SafariParkTests\obj\Debug\net7.0\SafariParkTests.csproj.AssemblyReference.cache
+C:\Users\tahsi\Documents\SafariPark_AfterInhertianceLab (1)\SafariPark\SafariParkTests\obj\Debug\net7.0\SafariParkTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tahsi\Documents\SafariPark_AfterInhertianceLab (1)\SafariPark\SafariParkTests\obj\Debug\net7.0\SafariParkTests.AssemblyInfoInputs.cache
+C:\Users\tahsi\Documents\SafariPark_AfterInhertianceLab (1)\SafariPark\SafariParkTests\obj\Debug\net7.0\SafariParkTests.AssemblyInfo.cs
+C:\Users\tahsi\Documents\SafariPark_AfterInhertianceLab (1)\SafariPark\SafariParkTests\obj\Debug\net7.0\SafariParkTests.csproj.CoreCompileInputs.cache

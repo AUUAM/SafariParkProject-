@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "bdWm++ozksIRerZpkWorBTFu+9gnMu0hH75QUTDAewaXcYvzSXMsUUmDddlSRj+MgeOomkYw89ngVHq2yz+Cng==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\tahsi\\Documents\\SafariPark_AfterInhertianceLab (1)\\SafariPark\\SpartanTest\\SpartanTest.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project SafariParkApp is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project SafariParkApp supports: net7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "SafariParkApp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
