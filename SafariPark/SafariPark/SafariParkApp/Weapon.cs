@@ -10,7 +10,7 @@ namespace SafariParkApp
     {
         private string _brand;
 
-        public virtual string Shoot() { return "String"; }
+        public virtual string Shoot() { return $"Shooting a "; }
 
         public virtual string ToString() { return "string2"; }
 

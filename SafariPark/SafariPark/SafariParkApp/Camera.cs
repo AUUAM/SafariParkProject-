@@ -13,7 +13,7 @@ namespace SafariParkApp
         public  string Shoot() { return $"Zing!! "; }
         public  string ToString()
         {
-            throw new NotImplementedException();
+            return $"{_brand}";
         }
 
         public Camera(string brand) { }
