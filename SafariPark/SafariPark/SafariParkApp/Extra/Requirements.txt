@@ -1,0 +1,11 @@
+﻿///////////////////////////
+
+//Choose your character
+//Choose your weapon
+
+if choice - hunter then present an animal to hunt
+if choice - assassi then present new target to kill
+if choice - soldier then rescue civilian from building
+
+
+

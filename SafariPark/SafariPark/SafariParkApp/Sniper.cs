@@ -6,25 +6,11 @@ using System.Threading.Tasks;
 
 namespace SafariParkApp
 {
-    public class Sniper : Weapon, IStealthable
+    public class Sniper : Weapon, IShootable
     {
         public Sniper(string brand) : base(brand) { }
-        public string Sneak()
-        {
-            return "You are sneaking";
-        }
 
-        public string Hide()
-        {
-            return "You are hidden";
-        }
-        public string Run()
-        {
-            return "You are running away";
-        }
-        public string Kill()
-        {
-            return "You have killed the target";
-        }
+        public override string Shoot() { return $"Zing!! Shooting a {base.ToString()}"; }
+
     }
 }

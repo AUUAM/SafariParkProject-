@@ -8,10 +8,9 @@ namespace SafariParkApp
 {
     public interface IStealthable
     {
-        string Sneak();
-        string Hide();
-        string Run();
-        string Kill();
+        string Ambush();
+        string LongRangeKill();
+        string ShortRangeKill();
     }
 }
 // new class weapons smoke bomb, knife, sniper 
